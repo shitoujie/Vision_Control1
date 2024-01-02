@@ -1,0 +1,10 @@
+gimbal_hw_node:
+  ros__parameters:
+    imu_raw_publish_topic_name: "/skider/imu/data_raw"
+    sbus_publish_topic_name: "/skider/joy/sbus_frame"
+    gimbal_interface_usb_vid: 0x0483
+    gimbal_interface_usb_pid: 0x5740
+    gimbal_interface_usb_read_endpoint: 0x81
+    gimbal_interface_usb_write_endpoint: 0x01
+    gimbal_interface_usb_read_timeout: 1
+    gimbal_interface_usb_write_timeout: 1

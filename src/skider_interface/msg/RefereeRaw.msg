@@ -1,0 +1,16 @@
+std_msgs/Header header
+
+float64 speed
+float64 speed_max
+uint16 heat_current
+uint16 heat_max
+uint16 heat_cooling
+
+uint8 robot_id
+uint8 robot_power_supply
+uint16 robot_blood_remain
+uint16 robot_blood_max
+uint16 enemy1_blood_remain
+uint16 enemy3_blood_remain
+uint16 enemy4_blood_remain
+uint16 enemy5_blood_remain

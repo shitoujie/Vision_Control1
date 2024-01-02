@@ -1,0 +1,18 @@
+imu_sensor_node:
+  ros__parameters:
+    imu_externel_parmeters_z: [0.0, 0.0, 1.0]
+    imu_externel_parmeters_y: [0.0, -1.0, 0.0]
+    imu_externel_parmeters_x: [1.0, 0.0, 0.0]
+    imu_raw_sbuscribe_topic_name: "/skider/imu/data_raw"
+    imu_data_public_topic_name: "/skider/imu/data"
+    processer_algorithm: "Mahony"
+    mahony_adjust_kp: 1.0
+    mahony_adjust_ki: 0.0
+    mahony_frequency: 1000
+    publish_tf: true
+    tf_root:  "base_link"
+    tf_branch: "imu_link"
+remote_sensor_node:
+  ros__parameters:
+    joy_sbus_sbuscribe_topic_name: "/skider/joy/sbus_frame"
+    joy_data_publish_topic_name: "/skider/joy/data"
