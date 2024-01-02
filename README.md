@@ -33,10 +33,7 @@ sudo make install
 
 
 
-``` 
-# setup realtime kernel
-please check this article https://zhuanlan.zhihu.com/p/675155576
-```
+to setup the realtime kernel, please check this article https://zhuanlan.zhihu.com/p/675155576
 
 
 
